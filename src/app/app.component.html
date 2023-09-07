@@ -1,26 +1,44 @@
-
-
-
 <h1> Title of this page is: {{ title}} .... This is h1</h1>
 
 
 
-<h2> an h2 one header</h2>
-
+<h2> An h2 one header</h2>
 <h2> another h2 one header</h2>
 
-<p> a paragraph is here</p>
+<p id="22"> a paragraph is here</p>
+<p id="33"> another paragraph is here</p>
 
+<div id="44">
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" width="104" height="142" />
+</div>
 
-<p> another paragraph is here</p>
+<div id="55">
+    <img src="https://www.shutterstock.com/image-photo/wooden-box-save-file-icon-260nw-2313828801.jpg"
+        alt="puzzle pieces" width="104" height="142" />
+</div>
 
-<div>
-<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" width="104" height="142"/>
+<div class="div-margin">
+    <a id="66" href="https://www.w3schools.com">This is a link</a>
+</div>
 
+<span>
+    <a id="77" href="https://www.google.com">This is another link</a>
+</span>
+
+<div class="div-margin">
+
+    <label>Enter your name:</label>
+    <input type="text" [(ngModel)]="name">
+    <div>
+        <button id="88" (click)="onClickMe()">Click me!</button>
+    </div>
 </div>
 
 
-
-<div>
-<img src="https://www.shutterstock.com/image-photo/wooden-box-save-file-icon-260nw-2313828801.jpg" alt="puzzle pieces" width="104" height="142"/>
+<div class="div-margin">
+    <div class="myDiv2">
+        <div class="myDiv3">
+            <span class="mySpan1">This is a span</span>
+        </div>
+    </div>
 </div>

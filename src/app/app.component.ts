@@ -7,6 +7,10 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+name: any;
+onClickMe() {
+throw new Error('Method not implemented.');
+}
 
   title: string = 'Automated Web webpage Testing Playground';
 
