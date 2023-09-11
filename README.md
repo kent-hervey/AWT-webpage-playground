@@ -1,9 +1,7 @@
 # Automated Web webpage Testing Playground
 
+# Provides simple Web site with html tags to facilitate AWT
 
-## Built from AngularTourOfHeroes
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
 ## Development server
 
